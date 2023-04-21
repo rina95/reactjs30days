@@ -1,6 +1,7 @@
 import React from "react"
 import { Button } from '../../shared/Button'
 import avatar from '../../assets/images/tocxu.jpg'
+import StudentForm from '../../components/form/StudentForm'
 
 class Main extends React.Component {
   render() {
@@ -55,6 +56,8 @@ class Main extends React.Component {
             {status}
           </div>
           <Message message={message} />
+
+          <StudentForm />
         </div>
       </main>
     )
