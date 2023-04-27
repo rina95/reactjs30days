@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Main from './components/main/Main'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 class App extends Component {
   state = {
